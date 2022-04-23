@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "674013067155",
+    "project_id": "quarantin-dd929",
+    "storage_bucket": "quarantin-dd929.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674013067155:android:8ef54ec798dbc940131a66",
+        "android_client_info": {
+          "package_name": "com.example.quarantin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674013067155-2i7q47429cbjut743k9bc13tg61l27pp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWS6p0UxOzAxdrRgnsmZECom_OZK9wxBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674013067155-2i7q47429cbjut743k9bc13tg61l27pp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
