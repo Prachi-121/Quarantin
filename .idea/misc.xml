@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Quarantin/app/src/main/res/layout/activity_2.xml" value="0.2" />
+        <entry key="..\:/Quarantin/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/Quarantin/app/src/main/res/layout/activity_loginapplication.xml" value="0.22826086956521738" />
+        <entry key="..\:/Quarantin/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Quarantin/app/src/main/res/layout/activity_register.xml" value="0.22826086956521738" />
+        <entry key="..\:/Quarantin/app/src/main/res/layout/activity_sign_up.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/Quarantin/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
       </map>
     </option>
