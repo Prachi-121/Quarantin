@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -39,6 +40,10 @@ public class RegisterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+
+        // Adding this line will prevent taking screenshot in your app
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE,
+                WindowManager.LayoutParams.FLAG_SECURE);
 
         etRegEmail = findViewById(R.id.etRegEmail);
         etRegPassword = findViewById(R.id.etRegPass);

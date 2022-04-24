@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -29,6 +30,11 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        // Adding this line will prevent taking screenshot in your app
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE,
+                WindowManager.LayoutParams.FLAG_SECURE);
+
 
         etLoginEmail = findViewById(R.id.etLoginEmail);
         etLoginPassword = findViewById(R.id.etLoginPass);
